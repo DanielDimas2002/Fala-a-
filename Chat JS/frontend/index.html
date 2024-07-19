@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <!-- Define o conjunto de caracteres para UTF-8 -->
+    <meta charset="UTF-8">
+    <!-- Configura o viewport para responsividade em dispositivos móveis -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Link para o arquivo CSS local -->
+    <link rel="stylesheet" href="./css/style.css">
+    
+    <!-- Preconecta com os servidores do Google Fonts para otimizar o carregamento -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <!-- Importa a fonte Mukta com diferentes pesos -->
+    <link href="https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Importa ícones do Google Material Symbols -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    
+    <title>Fala aê!</title>
+</head>
+<body>
+    <!-- Container principal para o conteúdo da página -->
+    <section class="container">
+        <!-- Seção de login -->
+        <section class="login">
+            <h2>Login</h2>
+            <form class="login__form">
+                <!-- Campo para o nome do usuário -->
+                <input type="text" class="login__input" placeholder="Seu nome" required>
+                <!-- Botão de login -->
+                <button type="submit" class="login__button">Entrar</button>
+            </form>
+        </section>
+
+        <!-- Seção de chat -->
+        <section class="chat">
+            <!-- Área para mensagens do chat -->
+            <section class="chat__messages">
+                <!-- As mensagens serão inseridas aqui pelo JavaScript -->
+            </section>
+            
+            <!-- Formulário para enviar novas mensagens -->
+            <form class="chat__form">
+                <!-- Campo para digitar uma nova mensagem -->
+                <input type="text" class="chat__input" placeholder="Mensagem..." required>
+                <!-- Botão para enviar a mensagem -->
+                <button type="submit" class="chat__button">
+                    <span class="material-symbols-outlined">send</span>
+                </button>
+            </form>
+        </section>
+    </section>
+
+    <!-- Link para o arquivo JavaScript local -->
+    <script src="./js/script.js"></script>
+</body>
+</html>
